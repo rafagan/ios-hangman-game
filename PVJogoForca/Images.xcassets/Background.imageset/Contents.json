@@ -1,0 +1,17 @@
+{
+  "images" : [
+    {
+      "idiom" : "universal",
+      "scale" : "1x",
+      "filename" : "132465__texture-lines-stripes-field-notebook-notebook-yellow-leaf-page-background-wallpaper_p.png"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  }
+}

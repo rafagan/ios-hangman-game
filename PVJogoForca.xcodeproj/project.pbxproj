@@ -7,18 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2605F9EF184527BA00D92684 /* GallowsImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2605F9EE184527BA00D92684 /* GallowsImage.m */; };
+		2605F9F21845282E00D92684 /* DataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 2605F9F11845282E00D92684 /* DataSource.m */; };
+		2605F9F518452F0400D92684 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 2605F9F418452F0400D92684 /* Player.m */; };
+		2605F9F71845331800D92684 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2605F9F61845331800D92684 /* Images.xcassets */; };
 		9766BA311845164000315C1D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9766BA301845164000315C1D /* Foundation.framework */; };
 		9766BA331845164000315C1D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9766BA321845164000315C1D /* CoreGraphics.framework */; };
 		9766BA351845164000315C1D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9766BA341845164000315C1D /* UIKit.framework */; };
 		9766BA3B1845164000315C1D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9766BA391845164000315C1D /* InfoPlist.strings */; };
 		9766BA3D1845164000315C1D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9766BA3C1845164000315C1D /* main.m */; };
 		9766BA411845164000315C1D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9766BA401845164000315C1D /* AppDelegate.m */; };
-		9766BA431845164000315C1D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9766BA421845164000315C1D /* Images.xcassets */; };
 		9766BA4A1845164100315C1D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9766BA491845164100315C1D /* XCTest.framework */; };
 		9766BA4B1845164100315C1D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9766BA301845164000315C1D /* Foundation.framework */; };
 		9766BA4C1845164100315C1D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9766BA341845164000315C1D /* UIKit.framework */; };
 		9766BA541845164100315C1D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9766BA521845164100315C1D /* InfoPlist.strings */; };
 		9766BA561845164100315C1D /* PVJogoForcaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9766BA551845164100315C1D /* PVJogoForcaTests.m */; };
+		9766BA631845166F00315C1D /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9766BA611845166F00315C1D /* MainViewController.m */; };
+		9766BA641845166F00315C1D /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9766BA621845166F00315C1D /* MainViewController.xib */; };
+		9766BA681845191400315C1D /* Word.m in Sources */ = {isa = PBXBuildFile; fileRef = 9766BA671845191400315C1D /* Word.m */; };
+		9766BA6B1845194C00315C1D /* WordStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 9766BA6A1845194C00315C1D /* WordStore.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +39,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2605F9ED184527BA00D92684 /* GallowsImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GallowsImage.h; sourceTree = "<group>"; };
+		2605F9EE184527BA00D92684 /* GallowsImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GallowsImage.m; sourceTree = "<group>"; };
+		2605F9F01845282E00D92684 /* DataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataSource.h; sourceTree = "<group>"; };
+		2605F9F11845282E00D92684 /* DataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataSource.m; sourceTree = "<group>"; };
+		2605F9F318452F0400D92684 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		2605F9F418452F0400D92684 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		2605F9F61845331800D92684 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9766BA2D1845164000315C1D /* PVJogoForca.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PVJogoForca.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9766BA301845164000315C1D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9766BA321845164000315C1D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -42,12 +56,18 @@
 		9766BA3E1845164000315C1D /* PVJogoForca-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PVJogoForca-Prefix.pch"; sourceTree = "<group>"; };
 		9766BA3F1845164000315C1D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9766BA401845164000315C1D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9766BA421845164000315C1D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9766BA481845164100315C1D /* PVJogoForcaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PVJogoForcaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9766BA491845164100315C1D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		9766BA511845164100315C1D /* PVJogoForcaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PVJogoForcaTests-Info.plist"; sourceTree = "<group>"; };
 		9766BA531845164100315C1D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9766BA551845164100315C1D /* PVJogoForcaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PVJogoForcaTests.m; sourceTree = "<group>"; };
+		9766BA601845166F00315C1D /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		9766BA611845166F00315C1D /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		9766BA621845166F00315C1D /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		9766BA661845191400315C1D /* Word.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Word.h; sourceTree = "<group>"; };
+		9766BA671845191400315C1D /* Word.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Word.m; sourceTree = "<group>"; };
+		9766BA691845194C00315C1D /* WordStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WordStore.h; sourceTree = "<group>"; };
+		9766BA6A1845194C00315C1D /* WordStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WordStore.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +94,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2605F9F81845335F00D92684 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9766BA621845166F00315C1D /* MainViewController.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
 		9766BA241845164000315C1D = {
 			isa = PBXGroup;
 			children = (
@@ -107,9 +135,12 @@
 		9766BA361845164000315C1D /* PVJogoForca */ = {
 			isa = PBXGroup;
 			children = (
+				2605F9F81845335F00D92684 /* View */,
+				2605F9F61845331800D92684 /* Images.xcassets */,
+				9766BA5F1845165B00315C1D /* Controller */,
+				9766BA651845176800315C1D /* Model */,
 				9766BA3F1845164000315C1D /* AppDelegate.h */,
 				9766BA401845164000315C1D /* AppDelegate.m */,
-				9766BA421845164000315C1D /* Images.xcassets */,
 				9766BA371845164000315C1D /* Supporting Files */,
 			);
 			path = PVJogoForca;
@@ -142,6 +173,32 @@
 				9766BA521845164100315C1D /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9766BA5F1845165B00315C1D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9766BA601845166F00315C1D /* MainViewController.h */,
+				9766BA611845166F00315C1D /* MainViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		9766BA651845176800315C1D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9766BA661845191400315C1D /* Word.h */,
+				9766BA671845191400315C1D /* Word.m */,
+				9766BA691845194C00315C1D /* WordStore.h */,
+				9766BA6A1845194C00315C1D /* WordStore.m */,
+				2605F9ED184527BA00D92684 /* GallowsImage.h */,
+				2605F9EE184527BA00D92684 /* GallowsImage.m */,
+				2605F9F01845282E00D92684 /* DataSource.h */,
+				2605F9F11845282E00D92684 /* DataSource.m */,
+				2605F9F318452F0400D92684 /* Player.h */,
+				2605F9F418452F0400D92684 /* Player.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,8 +276,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2605F9F71845331800D92684 /* Images.xcassets in Resources */,
 				9766BA3B1845164000315C1D /* InfoPlist.strings in Resources */,
-				9766BA431845164000315C1D /* Images.xcassets in Resources */,
+				9766BA641845166F00315C1D /* MainViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,8 +297,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2605F9F518452F0400D92684 /* Player.m in Sources */,
 				9766BA411845164000315C1D /* AppDelegate.m in Sources */,
+				9766BA681845191400315C1D /* Word.m in Sources */,
+				9766BA6B1845194C00315C1D /* WordStore.m in Sources */,
+				9766BA631845166F00315C1D /* MainViewController.m in Sources */,
+				2605F9F21845282E00D92684 /* DataSource.m in Sources */,
 				9766BA3D1845164000315C1D /* main.m in Sources */,
+				2605F9EF184527BA00D92684 /* GallowsImage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,6 +505,7 @@
 				9766BA5B1845164100315C1D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9766BA5C1845164100315C1D /* Build configuration list for PBXNativeTarget "PVJogoForcaTests" */ = {
 			isa = XCConfigurationList;
@@ -449,6 +514,7 @@
 				9766BA5E1845164100315C1D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
